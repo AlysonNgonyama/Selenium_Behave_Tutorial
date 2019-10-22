@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Home
+	</title>
+</head>
+<body>
+	<form method='POST'>
+		{{ a_form.csrf_token }}
+		{% if status == True %}
+			<p style="color: red;">First or Second field is incorrect</p>
+		{% endif %}
+		{{ a_form.first_field }}<br>
+		{{ a_form.second_field }}<br>
+		{{ a_form.submit }}
+	</form>
+</body>
+</html>
