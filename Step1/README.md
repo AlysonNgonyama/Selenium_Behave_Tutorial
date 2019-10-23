@@ -12,7 +12,7 @@ Just make these tests pass. Link below. If you need to look at the solution; itâ
 This test is really simple. You have a class that takes in 2 int values. One number higher than the other. The lowest of the numbers are then changed to either remain lower than the higher one initially set, equal to it or greater than it. Your mission (should you choose to accept it) is to validate that Iâ€™m not talking out of my ass and test what I say it does with the feature provided.
 
 --------------------
-Refer to the `A_Quick_Brush_up_on_Behave folder above.
+Refer to the `A_Quick_Brush_up_on_Behave` folder above.
 ----------------
 
 Done? Great! You're all caught up.
